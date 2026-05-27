@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitocolmenar – Endulza tu vida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- CURSOR PERSONALIZADO (ABEJA) -->
+  <div class="custom-cursor" id="cursor"></div>
+
+  <!-- BARRA DE PROGRESO -->
+  <div id="scroll-progress"></div>
+
+  <!-- TOAST / NOTIFICACIÓN -->
+  <div class="toast" id="toast"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="logo">Vito<span>Colmenar</span></div>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <!-- Partículas de fondo -->
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Apicultura sostenible · Sincelejo, Sucre</p>
+      <h1>Endulza tu vida<br /><em>y protege el futuro</em></h1>
+      <p class="hero-sub">Miel 100% natural producida con ciencia, comunidad y amor por la tierra.</p>
+      <a href="#productos" class="btn">Conoce nuestros productos</a>
+    </div>
+    <div class="hero-scroll">↓</div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="section">
+    <div class="container two-col">
+      <div class="text-block reveal reveal-left">
+        <span class="label">Quiénes somos</span>
+        <h2>Apicultura con propósito</h2>
+        <p>Vitocolmenar es una empresa apícola de Sincelejo, Sucre, dedicada a producir y comercializar miel y derivados
+          apícolas mediante prácticas sostenibles. Integramos la conservación de la biodiversidad, la investigación
+          científica y la participación comunitaria.</p>
+        <p>Para el año 2028, seremos un referente regional en apicultura sostenible y Negocios Verdes, reconocido por
+          nuestro aporte a la conservación del bosque seco tropical.</p>
+      </div>
+      <div class="cards-mini reveal reveal-right">
+        <div class="mini-card">
+          <h4>Misión</h4>
+          <p>Producir y comercializar miel mediante prácticas sostenibles, generando bienestar ambiental, social y
+            económico en Sucre.</p>
+        </div>
+        <div class="mini-card">
+          <h4>Visión 2028</h4>
+          <p>Referente regional en apicultura sostenible y Negocios Verdes, reconocido por innovación científica y
+            fortalecimiento comunitario.</p>
+        </div>
+        <div class="mini-card">
+          <h4>Negocios Verdes</h4>
+          <p>En proceso de certificación ante CARSUCRE, consolidando nuestro compromiso con la sostenibilidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACTO -->
+  <section class="impact-band">
+    <div class="container impact-grid">
+      <div class="impact-item reveal">
+        <strong data-target="163215">0</strong>
+        <span>colmenas en Colombia</span>
+      </div>
+      <div class="impact-item reveal">
+        <strong>6.599 t</strong>
+        <span>miel producida al año</span>
+      </div>
+      <div class="impact-item reveal">
+        <strong>Top 5</strong>
+        <span>Sucre, líder nacional</span>
+      </div>
+      <div class="impact-item reveal">
+        <strong>1/3</strong>
+        <span>alimentos polinizados por abejas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section id="proceso" class="section bg-light">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Cómo trabajamos</span>
+        <h2>Miel producida con método y cuidado</h2>
+      </div>
+      <div class="steps reveal">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h4>Áreas estratégicas</h4>
+          <p>Bosque seco tropical de los Montes de María, sabanas sucreñas y reservas forestales.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h4>Vinculación comunitaria</h4>
+          <p>Alianzas con propietarios y familias rurales del sur de Sucre, fomentando el relevo generacional.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h4>Apiarios ≥ 20 colmenas</h4>
+          <p>Establecimiento técnico y ambiental, priorizando seguridad, sanidad y equilibrio natural.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h4>Monitoreo semanal</h4>
+          <p>Control de cría, reina, plagas y enfermedades durante todo el año.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">05</div>
+          <h4>Cosecha responsable</h4>
+          <p>Solo en períodos de máximo flujo floral, usando centrífuga con prácticas higiénicas.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">06</div>
+          <h4>Control de calidad</h4>
+          <p>Análisis °Brix, pH y humedad. Etiquetado con trazabilidad completa del producto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Lo que ofrecemos</span>
+        <h2>Productos y servicios apícolas</h2>
+      </div>
+      <div class="products-grid reveal">
+
+        <!-- PRODUCTO 1 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1471943311424-646960669fbc?w=600&q=80" alt="Miel 500 g" />
+          </div>
+          <div class="product-body">
+            <h3>Miel 500 g</h3>
+            <p>Presentación individual. Miel 100% natural de <em>Apis mellifera</em>, cosechada con trazabilidad
+              ambiental.</p>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 2 (DESTACADO) -->
+        <div class="product-card featured">
+          <div class="product-img-wrap">
+            <img
+              src="https://s.alicdn.com/@sc04/kf/Hc442689ce46941d7b243c066f5adf6b2X/2026-Good-Quality-8oz-12oz-16oz-240ml-350ml-500ml-730ml-Spice-Honey-Jam-Food-Storage-Glass-Bottles-Jars-With-Lid.jpg_300x300.jpg"
+              alt="Miel en frasco de vidrio 1 kg" />
+          </div>
+          <div class="product-body">
+            <h3>Vidrio 1 kg / 1 L</h3>
+            <p>Envase reutilizable. Nuestra presentación bandera, ideal para el hogar y como regalo especial.</p>
+            <span class="badge">Más vendido</span>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 3 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1623018697148-8350cf18e64e?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Panal con miel" />
+          </div>
+          <div class="product-body">
+            <h3>Panal con miel</h3>
+            <p>Cera con miel en su forma más pura y ancestral. Una experiencia apícola auténtica.</p>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 4 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img
+              src="https://media.istockphoto.com/id/2232876055/photo/jars-for-sale-in-rural-country-store.jpg?s=2048x2048&w=is&k=20&c=cAZBwemiDMZLxnsg07iVLahH96jlrz74ou8_ciHZ9LA="
+              alt="Miel por mayor 30 kg" />
+          </div>
+          <div class="product-body">
+            <h3>Por mayor – 30 kg</h3>
+            <p>Pimpinas para distribuidores. Disponible en Sucre, Cartagena y Montería.</p>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 5 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1602867693070-f9db4f42463a?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Rescate de enjambres" />
+          </div>
+          <div class="product-body">
+            <h3>Rescate de enjambres</h3>
+            <p>Rescate y reubicación profesional de enjambres de abejas africanizadas.</p>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 6 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Asesoría apícola" />
+          </div>
+          <div class="product-body">
+            <h3>Asesoría apícola</h3>
+            <p>Acompañamiento técnico para el establecimiento, manejo y desarrollo de apiarios.</p>
+          </div>
+        </div>
+
+      </div><!-- /products-grid -->
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-section">
+    <div class="container reveal">
+      <blockquote>
+        "Si la abeja desapareciera de la superficie del globo, al hombre sólo le quedarían cuatro años de vida."
+        <cite>— Albert Einstein</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section bg-light">
+    <div class="container two-col">
+      <div class="text-block reveal reveal-left">
+        <span class="label">Contáctanos</span>
+        <h2>¿Quieres nuestra miel o nuestro conocimiento?</h2>
+        <p>Estamos en Sincelejo, Sucre, y distribuimos en Cartagena y Montería. Escríbenos para pedidos, asesorías o
+          alianzas.</p>
+      </div>
+      <form class="contact-form reveal reveal-right" id="contactForm">
+        <input type="text" placeholder="Tu nombre" />
+        <input type="email" placeholder="Tu correo" />
+        <select>
+          <option value="">¿Qué te interesa?</option>
+          <option>Comprar miel</option>
+          <option>Asesoría apícola</option>
+          <option>Alianza / Colaboración</option>
+          <option>Rescate de enjambres</option>
+        </select>
+        <textarea placeholder="Tu mensaje..." rows="4"></textarea>
+        <button type="submit" class="btn">Enviar mensaje</button>
+        <p class="form-success" id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="logo">Vito<span>Colmenar</span></div>
+      <ul class="footer-list">
+        <li> Sincelejo, Sucre, Colombia</li>
+        <li> Distribución: Sucre · Cartagena · Montería</li>
+        <li> Certificación Negocios Verdes CARSUCRE</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
